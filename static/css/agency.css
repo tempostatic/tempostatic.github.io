@@ -9,6 +9,10 @@ body {
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+#formspace {
+  background-color: #EFEFEF;
+}
+
 .text-muted {
     color: #777;
 }
@@ -172,6 +176,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default {
     border-color: transparent;
     background-color: #222;
+
 }
 
 .navbar-default .navbar-brand {
@@ -192,7 +197,8 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle {
     border-color: #fed136;
-    background-color: #fed136;
+    /*background-color: #313131;*/
+    /*myedit*/
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -234,7 +240,7 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default {
         padding: 25px 0;
         border: 0;
-        background-color: transparent;
+        /*background-color: transparent;*/
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
