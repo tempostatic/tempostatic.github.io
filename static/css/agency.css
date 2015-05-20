@@ -9,6 +9,41 @@ body {
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+#justified-checkbox {
+    border: 2px dashed #444;
+    height: 125px;
+
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+
+    /* just for demo */
+    min-width: 950px;
+}
+
+#justified-checkbox > div {
+    width: 150px;
+    height: 125px;
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1
+}
+#justified-checkbox:after {
+    content: '';
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+
+#justified-checkbox > div:nth-child(odd) {
+    background: #ccc
+}
+#justified-checkbox > div:nth-child(even) {
+    background: #0ff
+}
+
 #formspace {
   background-color: #EFEFEF;
 }
