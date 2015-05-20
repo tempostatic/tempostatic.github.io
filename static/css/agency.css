@@ -9,7 +9,7 @@ body {
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-#justified-checkbox {
+.justified-checkbox {
     border: 2px dashed #444;
     height: 125px;
 
@@ -21,7 +21,7 @@ body {
     min-width: 950px;
 }
 
-#justified-checkbox > div {
+.justified-checkbox > div {
     width: 150px;
     height: 125px;
     vertical-align: top;
@@ -29,7 +29,7 @@ body {
     *display: inline;
     zoom: 1
 }
-#justified-checkbox:after {
+.justified-checkbox:after {
     content: '';
     width: 100%;
     display: inline-block;
@@ -37,10 +37,10 @@ body {
     line-height: 0
 }
 
-#justified-checkbox > div:nth-child(odd) {
+.justified-checkbox > div:nth-child(odd) {
     background: #ccc
 }
-#justified-checkbox > div:nth-child(even) {
+.justified-checkbox > div:nth-child(even) {
     background: #0ff
 }
 
